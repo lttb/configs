@@ -1,0 +1,16 @@
+{
+  "name": "@lttb/eslint-config-default",
+  "version": "0.0.1",
+  "description": "My configs for eslint",
+  "main": ".eslintrc",
+  "repository": "https://github.com/lttb/configs.git#js",
+  "author": "lttb <connect@lttb.net>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0"
+  }
+}
