@@ -1,0 +1,15 @@
+extends:
+  - stylelint-config-standard
+  - ./.style-order
+rules:
+  number-leading-zero: "never"
+  declaration-empty-line-before:
+    - always
+    - except:
+        - after-comment
+        - first-nested
+      ignore:
+        - after-declaration
+  block-opening-brace-space-before: "never"
+  declaration-block-trailing-semicolon: "never"
+  block-closing-brace-newline-before: "never-multi-line"

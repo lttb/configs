@@ -1,0 +1,13 @@
+{
+  "name": "@lttb/configs.style",
+  "version": "0.0.1",
+  "description": "My configs for stylelint",
+  "main": ".stylelintrc",
+  "repository": "https://github.com/lttb/configs.git#style",
+  "author": "lttb <connect@lttb.net>",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.2.2"
+  }
+}
